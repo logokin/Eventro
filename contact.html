@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="contact-body">
+    <header class="header">
+      <div class="title">
+        <h3 class="evt center">EVT</h3>
+        <h2 class="header-title">EVENTRO</h2>
+      </div>
+      <nav class="navbar">
+        <li>
+          <a href="index.html"
+            ><img src="images/home.png" alt="" class="icon" />home</a
+          >
+        </li>
+        <li>
+          <a href="contact.html"
+            ><img
+              src="images/contact.png"
+              alt=""
+              width="15px"
+              class="icon"
+            />contact</a
+          >
+        </li>
+        <li>
+          <a href="overview.html"
+            ><img
+              src="images/overview.png"
+              alt=""
+              width="15px"
+              class="icon"
+            />overview</a
+          >
+        </li>
+        <li>
+          <a href="semi-blog.html"
+            ><img
+              src="images/event.png"
+              alt=""
+              width="15px"
+              class="icon"
+              id="event"
+            />events</a
+          >
+        </li>
+        <li>
+          <a href="#about"
+            ><img
+              src="images/me.png"
+              alt=""
+              width="15px"
+              class="icon"
+            />about</a
+          >
+        </li>
+      </nav>
+    </header>
+    <section id="contact">
+      <div class="hero">
+        <div class="form-box">
+          <div class="but-box">
+            <div id="yes"></div>
+            <button type="button" class="button" onclick="login()">
+              login
+            </button>
+            <button type="button" class="button" onclick="register()">
+              register
+            </button>
+          </div>
+          <div class="social-icon">
+            <img
+              src="./images/facebook.png"
+              alt=""
+              width="50px"
+              height="30px"
+              class="hi"
+            />
+            <img
+              src="./images/google.png"
+              alt=""
+              width="50px"
+              height="30px"
+              class="hi"
+            />
+            <img
+              src="./images/twitter.png"
+              alt=""
+              width="50px"
+              height="30px"
+              class="hi"
+            />
+          </div>
+
+          <form class="input-group" id="login">
+            <input
+              type="text"
+              placeholder="user id"
+              required
+              class="input-field"
+            />
+            <input
+              type="password"
+              placeholder="enter password"
+              required
+              class="input-field"
+            />
+            <input type="checkbox" class="checkbox" /><span class="so"
+              >remember password</span
+            >
+            <button type="submit" class="submit-btn">log in</button>
+          </form>
+
+          <form class="input-group" id="register">
+            <input
+              type="text"
+              placeholder="user id"
+              required
+              class="input-field"
+            />
+            <input
+              type="email"
+              placeholder="email id"
+              required
+              class="input-field"
+            />
+            <input
+              type="password"
+              placeholder="enter password"
+              required
+              class="input-field"
+            />
+            <input type="checkbox" class="checkbox" /><span class="so">
+              i agree to terms and condition</span
+            >
+            <button type="submit" class="submit-btn">register</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
